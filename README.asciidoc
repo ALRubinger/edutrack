@@ -5,3 +5,15 @@
 |==========================================================================================
 
 The Git repository containing prototypes for the EduTrack System (working title).
+
+=== Installation Notes
+
+Project Skeleton has been generated with https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=releases&g=org.jboss.forge&a=forge-distribution&v=2.1.1.Final&e=zip&c=offline[Forge 2.1.1.Final].  Forge Addon installed and project bootstrapped via:
+
+[source]
+----
+addon-install --groupId org.jboss.errai.forge --name errai-forge-addon --version 2.0.0.Beta1
+project-new --named edutrack --topLevelPackage com.edutrack --buildSystem Maven --type war --version 1.0.0-alpha-1-SNAPSHOT
+setup-errai-in-project --versionSelect 3.0.0.20140214-M4 --moduleSelect Create\ a\ new\ module... --logicalModuleName com.edutrack.errai.App --moduleName app
+----
+

@@ -1,0 +1,7 @@
+== The EduTrack System
+
+|==========================================================================================
+| Andrew Lee Rubinger | +alr@alrubinger.com+ | http://twitter.com/ALRubinger['@ALRubinger']
+|==========================================================================================
+
+The Git repository containing prototypes for the EduTrack System (working title).
